@@ -6,7 +6,6 @@ const Navigation = ({ account, setAccount }) => {
         const account = ethers.utils.getAddress(accounts[0])
         setAccount(account);
     }
-
     return (
         <nav>
             <div className='nav__brand'>
@@ -32,5 +31,4 @@ const Navigation = ({ account, setAccount }) => {
         </nav>
     );
 }
-
 export default Navigation;
