@@ -4,14 +4,9 @@ import { Buffer } from 'buffer';
 import { ethers } from 'ethers';
 import axios from 'axios';
 
-// Components
 import Spinner from 'react-bootstrap/Spinner';
 import Navigation from './components/Navigation';
-
-// ABIs
 import NFT from './abis/NFT.json'
-
-// Config
 import config from './config.json';
 
 function App() {
